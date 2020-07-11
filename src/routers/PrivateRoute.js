@@ -25,3 +25,11 @@ const mapStateToProps = (state) => ({
 });
 
 export default connect(mapStateToProps)(PrivateRoute);
+
+
+//issue is after logging in when we click dashboard it redirects the page to ogin pagee
+
+// 1.create PublicRoute(copy the privateroute)
+//2.redirect to /dashboard if logged in
+//3.render component if not logged in
+//4.use it for the login page
